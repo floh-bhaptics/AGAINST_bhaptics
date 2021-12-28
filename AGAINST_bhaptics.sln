@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGAINST_bhaptics", "AGAINST_bhaptics.csproj", "{132D5DA4-DFD3-4DF0-B050-708C78140431}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{132D5DA4-DFD3-4DF0-B050-708C78140431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132D5DA4-DFD3-4DF0-B050-708C78140431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132D5DA4-DFD3-4DF0-B050-708C78140431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132D5DA4-DFD3-4DF0-B050-708C78140431}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5552990B-CA3E-4DAC-A677-662C68CC9ED2}
+	EndGlobalSection
+EndGlobal
