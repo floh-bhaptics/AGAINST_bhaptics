@@ -15,7 +15,7 @@ using MelonLoader;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-[assembly: MelonInfo(typeof(AGAINST_bhaptics.AGAINST_bhaptics), "AGAINST_bhaptics", "1.2", "Florian Fahrenberger")]
+[assembly: MelonInfo(typeof(AGAINST_bhaptics.AGAINST_bhaptics), "AGAINST_bhaptics", "1.2.1", "Florian Fahrenberger")]
 [assembly: MelonGame("JoyWay", "AGAINST")]
 
 
@@ -37,5 +37,5 @@ using MelonLoader;
 // Sie können alle Werte angeben oder Standardwerte für die Build- und Revisionsnummern verwenden,
 // indem Sie "*" wie unten gezeigt eingeben:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.2.1")]
+[assembly: AssemblyFileVersion("1.2.1")]
