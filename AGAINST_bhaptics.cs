@@ -11,6 +11,10 @@ using UnityEngine;
 
 using MyBhapticsTactsuit;
 
+[assembly: MelonInfo(typeof(AGAINST_bhaptics.AGAINST_bhaptics), "AGAINST_bhaptics", "2.0.0", "Florian Fahrenberger")]
+[assembly: MelonGame("JoyWay", "AGAINST")]
+
+
 namespace AGAINST_bhaptics
 {
     public class AGAINST_bhaptics : MelonMod
@@ -18,9 +22,9 @@ namespace AGAINST_bhaptics
         public static TactsuitVR tactsuitVr;
         public static bool swordRightHand = true;
 
-        public override void OnApplicationStart()
+        public override void OnInitializeMelon()
         {
-            base.OnApplicationStart();
+            //base.OnApplicationStart();
             tactsuitVr = new TactsuitVR();
             tactsuitVr.PlaybackHaptics("HeartBeat");
         }
